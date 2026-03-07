@@ -5,7 +5,7 @@ Modern developer portfolio built to showcase my projects, skills, and experience
 ---
 
 ## Portfolio
-[portfolio-mu-seven-8a5mgcgxjs.vercel.app](Portfolio)
+[https://portfolio-mu-seven-8a5mgcgxjs.vercel.app/](Portfolio)
 
 ---
 
