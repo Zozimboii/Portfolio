@@ -1,75 +1,105 @@
-# Nuxt Minimal Starter
+# Personal Portfolio
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Modern developer portfolio built to showcase my projects, skills, and experience as a full-stack developer.
 
-## Setup
 
-Make sure to install dependencies:
+---
 
-```bash
-# npm
+## About This Project
+
+This portfolio website presents my projects, technical skills, and background as a Computer Science student.
+
+The goal of this project is to create a clean, responsive, and modern portfolio website that highlights my work and demonstrates my ability to build full-stack web applications.
+
+---
+
+## Tech Stack
+
+Frontend
+
+* Nuxt 3
+* Vue 3
+* TailwindCSS
+
+Deployment
+
+* Vercel / Netlify
+
+---
+
+## Features
+
+* Responsive design (Mobile / Tablet / Desktop)
+* Smooth scroll navigation
+* Tech stack showcase
+* Project gallery
+* Contact section
+* Resume download
+
+---
+
+## Project Structure
+
+```
+components/
+ ├─ Navbar.vue
+ ├─ HomeSection.vue
+ ├─ AboutSection.vue
+ ├─ TechStackSection.vue
+ ├─ ProjectsSection.vue
+ └─ ContactSection.vue
+
+pages/
+ └─ index.vue
+
+data/
+ └─ techstack.ts
+ └─ project.ts
+
+```
+
+---
+
+## Installation
+
+Clone the repository
+
+```
+git clone https://github.com/Zozimboii/portfolio.git
+```
+
+Install dependencies
+
+```
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
+Run development server
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+```
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+---
 
-Build the application for production:
+## Deployment
 
-```bash
-# npm
-npm run build
+The project can be deployed easily using:
 
-# pnpm
-pnpm build
+* Vercel
+* Netlify
+* Cloudflare Pages
 
-# yarn
-yarn build
+---
 
-# bun
-bun run build
-```
+## Contact
 
-Locally preview production build:
+Email
+[pruksakorn2546@gmail.com](mailto:pruksakorn2546@gmail.com)
 
-```bash
-# npm
-npm run preview
+GitHub
+https://github.com/Zozimboii
 
-# pnpm
-pnpm preview
+LinkedIn
+https://www.linkedin.com/in/pruksakorn-saiweal
 
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
