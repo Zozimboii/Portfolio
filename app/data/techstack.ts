@@ -121,7 +121,7 @@ export const techStacks = [
   },
   {
     name: "TypeScript",
-    icon: "/icons/TypeSCript.png",
+    icon: "/icons/TypeScript.png",
   },
   {
     name: "VScode",
