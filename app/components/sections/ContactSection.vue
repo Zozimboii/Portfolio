@@ -102,8 +102,8 @@
         <p class="text-xs text-gray-400">Professional profile</p>
       </a>
 
-      <NuxtLink
-        href="/resume.pdf"
+      <a
+        href="/resume/Resume_Pruksakorn.pdf"
         download
         class="bg-slate-900 border border-slate-800 p-6 rounded-xl text-center hover:border-purple-500 hover:-translate-y-1 transition"
       >
@@ -132,7 +132,7 @@
         <p class="font-semibold mb-1">Resume</p>
 
         <p class="text-xs text-gray-400">Download my CV</p>
-      </NuxtLink>
+      </a>
     </div>
   </section>
 </template>

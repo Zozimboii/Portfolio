@@ -12,7 +12,7 @@ import { projects } from "~/data/project";
       <div
         v-for="project in projects"
         :key="project.name"
-        class="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden hover:border-purple-500 hover:-translate-y-2 transition"
+        class="bg-slate-900 border border-slate-800 rounded-xl overflow-hidden hover:border-purple-500"
       >
         <NuxtImg :src="project.image" class="w-full h-40 object-cover" />
 
@@ -40,7 +40,7 @@ import { projects } from "~/data/project";
           </div>
 
           <div v-if="project.demos && project.demos.length" class="mb-4">
-            <p class="text-sm text-purple-400 mb-2">Demo</p>
+            <p class="text-sm text-purple-400 mb-2">Video Demo</p>
 
             <div class="flex flex-col gap-2">
               <a
@@ -69,14 +69,15 @@ import { projects } from "~/data/project";
               </a>
             </div>
           </div>
-          <div class="flex gap-3 mt-4">
+          <div v-if="project.githubs" class="flex gap-2 mt-4 flex-wrap">
             <a
-              v-if="project.github"
-              :href="project.github"
+              v-for="repo in project.githubs"
+              :key="repo.url"
+              :href="repo.url"
               target="_blank"
               class="text-xs px-3 py-1 border border-slate-700 rounded hover:border-purple-500"
             >
-              GitHub
+              {{ repo.name }}
             </a>
           </div>
 
