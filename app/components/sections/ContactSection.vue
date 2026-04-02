@@ -9,7 +9,7 @@
 
       <p class="text-gray-400 max-w-xl mx-auto leading-relaxed">
         If you're interested in working together, discussing a project, or
-        simply saying hello — feel free to reach out.
+        simply saying hello - feel free to reach out.
       </p>
     </div>
 

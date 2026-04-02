@@ -29,13 +29,15 @@ export const projects = [
     name: "ICT Job Skill Recommendation System",
     image: "/project/ict.png",
     description:
-      "A full-stack web application that analyzes job market trends and recommends relevant ICT skills for users.",
+      "A full-stack web application that scrapes real ICT job postings, visualizes skill trends, and uses Gemini AI to analyze users transcripts for personalized skill gap analysis and job recommendations.",
 
     features: [
-      "Job trend visualization",
-      "Skill recommendation system",
-      "Job search by skill",
-      "Web scraping job data",
+      "Real-time ICT job scraping & skill trend visualization",
+      "AI transcript analysis for skill extraction (Gemini)",
+      "Personalized skill gap analysis & learning roadmap",
+      "Job search with skill-based filtering",
+      "Self-assessment with real-time job match scoring",
+      "Admin panel with one-click web scraping",
     ],
 
     tech: ["Nuxt 3", "FastAPI", "MySQL", "Python", "Tailwind CSS"],
@@ -100,9 +102,9 @@ export const projects = [
       "A comprehensive full-stack e-commerce platform for restaurants, featuring a dynamic menu system, real-time cart calculations, and a robust relational database for order management.",
 
     features: [
-      "Dynamic product filtering by category (Maindish/Drink)",
-      "Real-time persistent shopping cart with automated total calculation",
-      "User profile management with secure image upload and data persistence",
+      "Dynamic product filtering by category",
+      "Automated total calculation",
+      "Secure image uploading and permanent storage of user data.",
       "Automated order ID generation and transaction history tracking",
       "RESTful API documented and tested using Swagger UI",
     ],
