@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import Navbar from "~/components/Navbar.vue";
 import AboutSection from "~/components/sections/AboutSection.vue";
+import CertificateSection from "~/components/sections/CertificateSection.vue";
 import ContactSection from "~/components/sections/ContactSection.vue";
 import HomeSection from "~/components/sections/HomeSection.vue";
 import ProjectsSection from "~/components/sections/ProjectsSection.vue";
@@ -38,6 +39,8 @@ useHead({
       <TechStackSection />
 
       <ProjectsSection />
+
+      <CertificateSection />
 
       <ContactSection />
     </main>
